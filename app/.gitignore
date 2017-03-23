@@ -16,3 +16,4 @@
 /build/
 tempPartner.xml
 /local.properties
+/.gradle/*
