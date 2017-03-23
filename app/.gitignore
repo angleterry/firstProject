@@ -1,1 +1,18 @@
-/build
+
+#IntelliJ IDEA
+/.gitignore
+/*.iml
+/*.ipr
+/*.iws
+/*.apk
+/.idea
+/.gradle
+/out
+/target
+/classes
+/output
+/gen-external-apklibs
+/vout
+/build/
+tempPartner.xml
+/local.properties
