@@ -1,12 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/tv_welcome"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="欢迎使用"
         android:textSize="50sp"
         android:gravity="center"/>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/iv_demo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:actualImageScaleType="centerCrop"
+        app:roundAsCircle="true"
+        app:roundingBorderColor="#fff3cf44"
+        app:roundingBorderWidth="2dp"
+        />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/iv_gif_demo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        app:actualImageScaleType="centerCrop"
+        app:roundAsCircle="true"
+        app:roundWithOverlayColor="@color/white"
+        app:roundingBorderColor="#fff3cf44"
+        app:roundingBorderWidth="2dp"
+        />
+
 </RelativeLayout>
